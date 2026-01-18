@@ -69,7 +69,6 @@ function mostReadBook(log) {
    // Returns the book title with the highest frequency.
   return maxBook;
 }
-
 // Prints a summary of minutes read per day
 // Purpose: Displays each day's reading activity in the console.
 // Inputs: log (array of reading objects).
@@ -83,6 +82,11 @@ function printDailySummary(log) {
 // Example usage
 // Existing test case: adds a Saturday reading entry.
 addReadBook("Saturday", "Dune", 50);
+
+// NEW TEST CASE:
+// Adds a Sunday reading session to test the function with new data.
+addReadBook("Sunday", "The Hobbit", 35);
+
 // Prints a summary of all reading entries.
 printDailySummary(readingLog);
 
