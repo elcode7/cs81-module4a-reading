@@ -91,3 +91,11 @@ console.log("Total minutes read:", totalReadingMinutes(readingLog));
 
 // Displays the total minutes read during the week.
 console.log("Most read book:", mostReadBook(readingLog));
+
+
+// IMPROVEMENT SUGGESTION:
+// The addReadBook function could be improved by validating input.
+// For example, checking that "minutes" is a positive number would
+// prevent invalid or incorrect data from being added to the log.
+
+
